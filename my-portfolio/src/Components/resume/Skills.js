@@ -6,9 +6,9 @@ const Skills = () => {
     <motion.div
       initial={{ opacity: 0 }}
       animate={{ opacity: 1, transition: { duration: 0.5 } }}
-      className="w-full flex gap-20"
+      className="w-full flex flex-col lgl:flex-row gap-10 lgl:gap-20"
     >
-      <div className="w-1/2">
+      <div className="w-full lgl:w-1/2">
         <div className="py-12 font-titleFont flex flex-col  gap-4">
           <p className="text-sm text-designColor tracking-[4px]">1998 - 2010</p>
           <h2 className="text-4xl font-bold">Professional skills</h2>
@@ -90,7 +90,7 @@ const Skills = () => {
         </div>
       </div>
 
-      <div className="w-1/2">
+      <div className="w-full lgl:w-1/2">
         <div className="py-12 font-titleFont flex flex-col gap-4">
           <p className="text-sm text-designColor tracking-[4px]">2010-2022</p>
           <h2 className="text-4xl font-bold">Job Experience</h2>

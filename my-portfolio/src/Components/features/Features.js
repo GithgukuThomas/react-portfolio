@@ -13,7 +13,7 @@ const Features = () => {
       className="w-full py-20 border-b-[1px] border-b-black"
     >
       <Title title="Features" desc="What i do" />
-      <div className="grid grid-cols-3 gap-20">
+      <div className="grid grid-cols-1 md:grid-cols-3 xl:grid-cols-3 gap-6 xl:gap-20">
         <Card
           title="Business Stratagy"
           desc="Lorem ipsum dolor sit amet consectetur adipisicing elit. Atque soluta."
