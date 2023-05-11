@@ -28,9 +28,12 @@ const Leftbanner = () => {
           />
         </h2>
         <p className="text-base font-bodyFont leading-6 tracking-wide">
-          I use animation as a third dimension by which to simplify experiences
-          and kuiding through each and every interaction. I'm not adding motion
-          just to spurce things up, but doing it in ways that.
+          Experienced full-stack web developer proficient in HTML, CSS, and
+          JavaScript, with a strong focus on React and Tailwind for creating
+          interactive interfaces. Skilled in collaborating with designers using
+          Figma and building scalable server-side solutions with Node.js and
+          MongoDB. Committed to delivering exceptional web development
+          solutions.
         </p>
       </div>
       <div className="flex flex-col xl:flex-row gap-6 lgl:gap-0 justify-between">
